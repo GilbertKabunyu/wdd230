@@ -1,0 +1,53 @@
+/* Small screens */
+@media screen and (max-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1rem;
+        margin: 1rem 2vw;
+    }
+}
+
+
+/* Large screens */
+@media screen and (min-width: 768px) {
+
+    /* Navigation */
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #0c0c0c;
+        padding: 1rem 0;
+    }
+
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+
+    /* Main Content */
+    section {
+        box-shadow: 1px 1px black;
+    }
+
+    .card {
+        margin-bottom: 3px;
+    }
+
+    .card:first-child {
+        grid-column: 1 / span 2;
+    }
+
+    .card ul {
+        list-style-type: none;
+    }
+
+    /*.container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+
+    }*/
+}

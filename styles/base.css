@@ -1,0 +1,137 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  background-color: #0c0c0c;
+  display: block;
+  text-align: center;
+}
+
+nav .active {
+  background-color: rgba(64, 52, 240, 0.5);
+}
+
+nav a {
+  text-decoration: none;
+  /*text-align: center;
+  display: block;*/
+  color: #fff;
+  padding: .5rem;
+  margin: .5rem;
+  transition: color 0.3s;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+h2 {
+  background-color: #2c3e50;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3498db;
+}
+
+/* Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-sizing: border;
+}
+
+section {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 1rem 2vw;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.name {
+  font-size: 30px;
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 1.5rem;
+}
+
+nav a:hover {
+  color: #7f8c8d;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #7f8c8d;
+}
+
+.learning-activities,
+.information {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+#lastModified {
+  color: rgb(182, 35, 35);
+}
