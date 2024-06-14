@@ -29,8 +29,6 @@ nav .active {
 
 nav a {
   text-decoration: none;
-  /*text-align: center;
-  display: block;*/
   color: #fff;
   padding: .5rem;
   margin: .5rem;
@@ -59,6 +57,7 @@ a {
 
 a:hover {
   color: #3498db;
+  border: 2px solid #101314;
 }
 
 /* Layout */
@@ -71,10 +70,9 @@ a:hover {
 .card {
   background-color: #fff;
   border-radius: 3px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
   padding: 1.5rem;
   margin-bottom: 2rem;
-  box-sizing: border;
 }
 
 section {
@@ -92,6 +90,7 @@ header {
 
 .name {
   font-size: 30px;
+  margin: 10px;
 }
 
 header .container {
@@ -110,19 +109,14 @@ nav li {
   margin-left: 1.5rem;
 }
 
+ul {
+  list-style-type: none;
+}
+
 nav a:hover {
   color: #7f8c8d;
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid #7f8c8d;
-}
-
-.learning-activities,
-.information {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  margin-bottom: 1rem;
 }
 
 footer {
