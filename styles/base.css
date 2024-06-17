@@ -51,7 +51,7 @@ h2 {
 }
 
 a {
-  color: #2980b9;
+  color: #08090a;
   text-decoration: none;
 }
 
@@ -127,5 +127,5 @@ footer {
 }
 
 #lastModified {
-  color: rgb(182, 35, 35);
+  color: #fff ;
 }
