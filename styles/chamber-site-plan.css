@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Global Styles */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+    background-color: #fff2f1;
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #005A9E;
+}
+
+/* Color Styles */
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #03C03C;
+    --secondary-color: #fff2f1;
+    --accent1-color: #91d379;
+    --accent2-color: #a0e885;
+    --accent3-color: #a09be7;
+    --accent4-color: #ffffff;
+    --accent5-color: #000000;
+
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: "open Sans";
+    --paragraph-font: Lato, Helvetica, sans-serif;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #396e94;
+    /* headlines on a white background */
+    --headline-color-on-color: white;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #396e94;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: white;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #396e94;
+    --nav-link-color: #396e94;
+    --nav-background-color: #D4AC0D;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 14.3%;
+    height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+.accent3 {
+    background-color: var(--accent3-color);
+}
+
+.accent4 {
+    background-color: var(--accent4-color);
+}
+
+.accent5 {
+    background-color: var(--accent5-color);
+}
+
+/* Wireframe Styles */
+.wireframe {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
