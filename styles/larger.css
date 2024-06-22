@@ -28,13 +28,14 @@
     .card ul {
         list-style-type: none;
     }
-}
 
-@media (min-width: 768px) {
+
+
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 1rem;
+        margin: 1rem;
     }
 
     .card:nth-of-type(1) {
@@ -44,4 +45,19 @@
     .card:nth-of-type(2) {
         grid-column: 2 / 2;
     }
+
+    #menu {
+        display: none;
+        /* hide hamburger button */
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .navigation a {
+        display: flex;
+        flex: 1 1 100%;
+    }
+
 }
