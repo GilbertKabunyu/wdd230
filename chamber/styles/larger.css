@@ -107,4 +107,29 @@
         grid-column: 3/6;
         grid-row: 3/4;
     }
+
+    /* Discovery page */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 1rem;
+        padding: 1rem 1.5vw;
+    }
+
+    /* Calendar settings *
+
+    /* Styles for large screens (e.g., desktops) */
+    table {
+        font-size: 10px;
+    }
+
+    th,
+    td {
+        padding: 3px;
+    }
+
+    .event {
+        padding: 5px;
+        margin-bottom: 5px;
+    }
 }

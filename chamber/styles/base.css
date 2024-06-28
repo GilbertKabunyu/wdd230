@@ -10,7 +10,7 @@
 
 body {
     background-color: #fff2f1;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /*font-size: 12px;*/
     padding: 0;
 }
@@ -41,17 +41,16 @@ ul {
 }
 
 nav a {
-    color: azure;
     text-decoration: none;
     padding: 35px;
-    color: #fff;
+    color: #141414;
     padding: .5rem;
     margin: .5rem;
     transition: color 0.3s;
 }
 
 nav .active {
-    background-color: rgba(3, 2, 17, 0.5);
+    background-color: rgba(3, 2, 17, 0.1);
 }
 
 #hero {
@@ -108,15 +107,15 @@ nav .active {
 
 footer {
     background-color: #03C03C;
-    color: #000;
-    padding: 25px ;
+    color: #141414;
+    padding: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 footer a {
-    color: #000;
+    color: #141414;
     text-decoration: none;
 }
 
@@ -161,7 +160,7 @@ footer .social img {
     display: flex;
     list-style: none;
     background-color: #03C03C;
-    color: #fff;
+    /* color: #fff;*/
 }
 
 .navigation a {
@@ -169,12 +168,12 @@ footer .social img {
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: #141414;
 }
 
 .navigation a:hover {
     background-color: #bbb;
-    color: #333;
+    color: #141414; 
     font-weight: 700;
 }
 
@@ -183,7 +182,72 @@ footer .social img {
     display: block;
 }
 
-/*.active::before {
-    content: rgba(255, 255, 255, 0.2);
-    /* just a wayfinding symbol for the user
-} */
+/* Discovery page */
+.grid-container {
+    grid-template-columns: 1fr;
+}
+
+.sidebar {
+    background-color: #f1f1f1;
+    padding: 1rem;
+}
+
+div.scroll-container {
+    /*background-color: #333;*/
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    animation: fade 15s;
+}
+
+div.scroll-container img {
+    padding: 10px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Calendar */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.event {
+    background-color: #e6f7ff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+table {
+    font-size: 5px;
+}
+
+th,
+td {
+    padding: 3px;
+}
+
+.event {
+    padding: 2px;
+    margin-bottom: 2px;
+}
