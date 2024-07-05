@@ -1,0 +1,44 @@
+:root {
+    --zebra: hsl(0, 0%, 93%, 1);
+    --white: #fff;
+    --gray: #333;
+    --border: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border: thin solid var(--border);
+}
+
+thead {
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--border);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
+
+th.black {
+    background-color: black;
+    color: white;
+}
+
+caption {
+    font-size: .82em;
+    font-weight: bold;
+    padding: 10px;
+    caption-side: bottom;
+}
