@@ -1,0 +1,53 @@
+[
+    {
+        "family-name": "Dzuda",
+        "moved": "01-03-2024",
+        "familysize": 3,
+        "visitedByBishopric": "true",
+        "members": [
+            {
+                "name": "Tyrine Dzuda",
+                "gender": "female",
+                "birthdate": "15-03-1993"
+            },
+            {
+                "name": "Malvin Dzuda",
+                "gender": "male",
+                "birthdate": "02-05-1990"
+            },
+            {
+                "name": "Winnie Dzuda",
+                "gender": "female",
+                "birthdate": "15-02-2023"
+            }
+        ]
+    },
+    {
+        "family-name": "Brown",
+        "moved": "02-03-2024",
+        "familysize": 4,
+        "visitedByBishopric": "true",
+        "members": [
+            {
+                "name": "Mike Brown",
+                "gender": "male",
+                "birthdate": "20-12-1985"
+            },
+            {
+                "name": "Letwin Brown",
+                "gender": "female",
+                "birthdate": "15-06-1990"
+            },
+            {
+                "name": "Sasha Brown",
+                "gender": "female",
+                "birthdate": "01-05-1994"
+            },
+            {
+                "name": "Mike Brown Jr",
+                "gender": "male",
+                "birthdate": "03-11-1997"
+            }
+        ]
+    }
+]

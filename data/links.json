@@ -1,0 +1,89 @@
+{
+    "weeks": [
+        {
+            "week": "Week01",
+            "links": [
+                {
+                    "url": "Week01/holygrail.html",
+                    "title": "Holy Grail Layout"
+                },
+                {
+                    "url": "Week01/media-query.html",
+                    "title": "Media Query Example"
+                }
+            ]
+        },
+        {
+            "week": "Week02",
+            "links": [
+                {
+                    "url": "Week02/bom.html",
+                    "title": "BOM 10 Chapters"
+                },
+                {
+                    "url": "Week02/design.html",
+                    "title": "Web Design Principles"
+                },
+                {
+                    "url": "Week02/hamburger.html",
+                    "title": "Humburger Navigation"
+                }
+            ]
+        },
+        {
+            "week": "Week03",
+            "links": [
+                {
+                    "url": "Week03/bom1.html",
+                    "title": "BOM 10 Chapters"
+                },
+                {
+                    "url": "Week03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "Week03/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "week": "Week04",
+            "links": [
+                {
+                    "url": "week04/combinators.html",
+                    "title": "Css Combinators"
+                },
+                {
+                    "url": "week04/pseudos.html",
+                    "title": "Pseudo-class Fun"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "ACME Wildwest Services"
+                }
+            ]
+        },
+        {
+            "week": "Week05",
+            "links": [
+                {
+                    "url": "Week05/prophets.html",
+                    "title": "Prophets"
+                },
+                {
+                    "url": "Week05/weather.html",
+                    "title": "Trier Germany Weather"
+                },
+                {
+                    "url": "Week05/csspseudo-elements.html",
+                    "title": "Pseudo-element"
+                },
+                {
+                    "url": "Week05/new-ward-members.json",
+                    "title": "New Ward Members (json)"
+                }
+            ]
+        }
+    ]
+}
