@@ -1,5 +1,5 @@
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Google Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
 
 /* General Styles */
 * {
@@ -131,7 +131,7 @@ ul {
 
 nav a:hover {
   color: #7f8c8d;
-  background-color: rgba(255, 255, 255, 0.2);
+  /*background-color: rgba(255, 255, 255, 0.2);*/
   border: 1px solid #7f8c8d;
 }
 
@@ -196,10 +196,6 @@ footer {
   display: block;
 }
 
-.active::before {
-  content: rgba (255, 255, 255, 0.2);
-  /* just a wayfinding symbol for the user */
-}
 
 /********************************************
 ************  Darkmode******🕶️*****************/

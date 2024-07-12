@@ -14,9 +14,8 @@
     <meta property="og:url" content="https://gilbertkabunyu.github.io/wdd230/">
     <title>Gilbert Kabunyu - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base2.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -31,7 +30,7 @@
                 ☼
             </button>
             <div class="top">
-                <img src="images/profile.jpg" alt="Gilbert kabunyu Profile" width="70" height="70">
+                <img src="images/profile.webp" alt="Gilbert kabunyu Profile" width="70" height="70">
                 <span class="name">Gilbert Kabunyu</span>
             </div>
         </header>
@@ -57,27 +56,20 @@
             </div>
             <h1> WDD 230: Web Frontend Development</h1>
             <div class="card-section">
-                <section class="card">
+                <section id="card">
                     <h2>Learning Activities</h2>
-                    <ul>
-                        <li>Week 01:<a href="week01/media-query.html"> Media Query| </a> <a
-                                href="week01/holygrail.html"> Holy Grail</a></li>
-                        <li>Week 02:<a href="week02/design.html">Design Principles |</a> <a
-                                href="week02/hamburger.html"> Responsive Menu |</a> <a href="week02/bom.html">BOM
-                                CHAP</a></li>
-                        <li> Week 03:<a href="week03/images/landscape.webp.webp"> WebP |</a> <a
-                                href="week03/lazyload.html">
-                                Lazy Load |</a> <a href="week03/responsive-images.html"> Responsive Images |</a> <a
-                                href="week03/bom1.html">Local Storage</a></li>
-                        <li>Week 04:<a href="week04/combinators.html">Combinators |</a><a
-                                href="week04/pseduos.html">Pseduos |</a><a href="week04/tablebuild.html">Table</a></li>
-                        <li><a href="">Week 05:</a></li>
-                        <li><a href="">Week 06:</a></li>
+                    <ul id="links-list">
+                        <!--Auto filled with javascript code about links-->
                     </ul>
                 </section>
                 <section class="card">
                     <h2>Information</h2>
-                    <p>Weather: TBD</p>
+                    <figure>
+                        <p id="current-temp"></p>
+                        <p id="description"></p> 
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
                     <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
                 </section>
             </div>
@@ -96,7 +88,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/visits.js"></script>
+    <script src="scripts/links.js"></script>
 </body>
-
 
 </html>

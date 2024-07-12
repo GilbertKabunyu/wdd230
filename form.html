@@ -7,14 +7,14 @@
     <meta name="author" content="Gilbert Kabunyu">
     <meta name="description"
         content=" WDD 230 - Web Fronted Develpoment and Gilbert kabunyu and course assignments portal">
-    <meta property=" og:title" content="Form Page"/>
+    <meta property=" og:title" content="Form Page">
     <meta property="og:type"
-        content="WDD 230 - Web Fronted Develpoment and Gilbert kabunyu and course assignments portal"/>
-    <meta property="og:image" content="https://www.facebook.com/photo/?fbid=2442016465906691&set=pob.100002950831597"/>
-    <meta property="og:url" content="https://gilbertkabunyu.github.io/wdd230/"/>
+        content="WDD 230 - Web Fronted Develpoment and Gilbert kabunyu and course assignments portal">
+    <meta property="og:image" content="https://www.facebook.com/photo/?fbid=2442016465906691&set=pob.100002950831597">
+    <meta property="og:url" content="https://gilbertkabunyu.github.io/wdd230/">
     <title>Gilbert Kabunyu - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base2.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,7 @@
                 ☼
             </button>
             <div class="top">
-                <img src="images/profile.jpg" alt="Gilbert kabunyu Profile" width="70" height="70">
+                <img src="images/profile.webp" alt="Gilbert kabunyu Profile" width="70" height="70">
                 <span class="name">Gilbert Kabunyu</span>
             </div>
         </header>
@@ -51,12 +51,10 @@
                     <label>Username*<input type="text" name="text" id="username" required></label>
                     <label>Password*<input type="password" name="password" id="password"
                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                            alt="value must be at least eight (8) characters long and can only be alpha-numeric"
-                            required></label>
+                            placeholder="at least 8 characters long and can only be alpha-numeric" required></label>
                     <label>Re-enter Password*<input type="password" name="password2" id="password2"
                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></label>
-                    <label>Email*<input type="email" name="email"
-                            pattern="[a-zA-Z0-9._%+-]+@byui\.edu$ or [a-zA-Z0-9._%+\-]+@byui\.edu"
+                    <label>Email*<input type="email" name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu"
                             title="Please enter a valid email address" required></label>
                 </fieldset>
                 <fieldset>
@@ -74,12 +72,13 @@
             <p id="lastModified"></p>
         </footer>
     </div>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/range.js"></script>
+    <script src="scripts/password.js"></script>
+    <script src="scripts/visits.js"></script>
+
 </body>
-<script src="scripts/getDates.js"></script>
-<script src="scripts/hamburger.js"></script>
-<script src="scripts/darkMode.js"></script>
-<script src="scripts/range.js"></script>
-<script src="scripts/password.js"></script>
-<script src="scripts/visits.js"></script>
 
 </html>
