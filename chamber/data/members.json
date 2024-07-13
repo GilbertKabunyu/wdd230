@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Superfertilzer",
+            "address": " M8HG+93, Bindura",
+            "phone": "(+263) 772-143-243",
+            "website": "https://www.fertilizer.co.zw",
+            "image": "new-superfert-logo.png",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": " TM Pick n Pay",
+            "address": "Cnr. Atherston Road/Railway Avenue, Bindura",
+            "phone": "(+263) 024-244-7271",
+            "website": "https://tmpnponline.co.zw/",
+            "image": "tm-click-n-collect-logo.png",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Bindura Nickel Corporation",
+            "address": "789 Maple Boulevard, Metropolis NY",
+            "phone": "(+263) 772 185 650",
+            "website": "https://binduranickel.co.zw/",
+            "image": "bnc_-logo1.png",
+            "membershipLevel": "Platinum"
+        },
+        {
+            "name": "Tobacoo Marketing Board",
+            "address": "Robert Mugabe Way, Bindura",
+            "phone": "(+263) 066-210-6772",
+            "website": "https://www.timb.co.zw/",
+            "image": "logo.png",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Ok Supermarket",
+            "address": "15 Main Streets, Bindura",
+            "phone": "(+263) 715-088-873",
+            "website": "https://okziminvestor.com/",
+            "image": "logo-ok-updated.png",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Chicken Inn",
+            "address": "6 Main Street, Bindura",
+            "phone": "(+263) 73-120-0867",
+            "website": "https://www.simbisabrands.com/",
+            "image": "logo-color.svg",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Agricura Bindura",
+            "address": "49 Robert Mugabe St, Bindura",
+            "phone": "(+263) 772-144-440",
+            "website": "https://agricura.co.zw",
+            "image": "logo-1.jpg",
+            "membershipLevel": "Gold"
+        }
+    ]
+}

@@ -199,7 +199,6 @@ footer .social img {
 }
 
 div.scroll-container {
-    /*background-color: #333;*/
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -336,4 +335,56 @@ td {
 
 .wf1 input:required:valid {
     border-right: solid 8px green;
+}
+
+/* Directory Page */
+
+/* View Toggle Styles */
+.view-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.view-toggle button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.view-toggle button.active {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Member Card Styles */
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.member-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.member-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Member List Styles */
+.members-list .member-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.members-list .member-item img {
+    max-width: 50px;
+    margin-right: 20px;
 }

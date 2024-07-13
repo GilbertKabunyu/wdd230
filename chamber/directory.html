@@ -25,44 +25,19 @@
             <nav class="navigation">
                 <button id="menu"></button>
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discovery</a></li>
-                    <li><a href="directory.html">Directory</a></li>
+                    <li class="active"><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join Us</a></li>
                 </ul>
             </nav>
         </header>
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="images/hero.jpg" alt="At chamber of Commerce">
+        <main>
+            <div class="directory-toggle">
+                <button id="grid-view" class="active">Grid View</button>
+                <button id="list-view">List View</button>
             </div>
-            <section id="hero-msg">
-                <h1 class="home-title">Bindura Chamber Of Commerce</h1>
-                <h4>The Vice Of Business</h4>
-                <div class="button-box">
-                    <a class="book" href="contactus.html">Join Chamber</a>
-                </div>
-            </section>
-        </div>
-        <main class="program">
-            <img class="event1" src="images/agri1.jpg" alt="picture of a company in bindura">
-            <section class="event2">
-                <h2>Events</h2>
-                <p>Here are some upcoming events related to chambers of commerce and industry.</p>
-            </section>
-            <img class="sportlight1" src="images/mining.jpg" alt="operating company in bindura">
-            <section class="sportlight2">
-                <h2>Sportlight</h2>
-                <p>Playing a critical role in the development and implementation of policies that affect the business
-                    community, the Bindura Chamber of Commerce and Industry</p>
-            </section>
-            <img class="weather" src="images/weather.jpg" alt="about weather forecast of any city">
-            <section class="weather1">
-                <h2>Weather</h2>
-                <p>Bindura Chamber of Commerce acknowledges that the climate is changing, and humans are contributing to
-                    these changes.
-                    Their approach emphasizes practical, flexible, predictable, and durable policies.</p>
-            </section>
+            <div id="directory-container" class="grid-view"></div>
         </main>
         <footer>
             <p> &copy;2024-Bindura Chamber | Gilbert Kabunyu| WDD 230 |</p>
@@ -83,7 +58,8 @@
     </div>
     <script src="scripts/lastModified.js"></script>
     <script src="scripts/ham.js"></script>
-
+    <script src="scripts/timestamp.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 
 </html>
