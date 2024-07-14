@@ -1,4 +1,4 @@
-const memberURL = 'https://gilbertkabunyu.github.io/wdd230/data/members.json';
+const memberURL = 'https://gilbertkabunyu.github.io/wdd230/chamber/data/members.json';
 const directoryContainer = document.getElementById('directory-container');
 const gridViewBtn = document.getElementById('grid-view');
 const listViewBtn = document.getElementById('list-view');
