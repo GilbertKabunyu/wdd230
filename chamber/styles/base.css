@@ -111,6 +111,32 @@ nav .active {
     align-self: center;
 }
 
+/* inde home page weather and sportlight */
+.banner {
+    background-color: #f4d03f;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.banner button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.weather,
+.spotlight {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
 footer {
     background-color: var(--headfooter-color);
     color: #141414;

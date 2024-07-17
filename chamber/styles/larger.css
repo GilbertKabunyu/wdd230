@@ -99,14 +99,9 @@
     .weather {
         grid-column: 1/3;
         grid-row: 3/4;
-        width: 100%;
         padding: 20px;
     }
 
-    .weather1 {
-        grid-column: 3/6;
-        grid-row: 3/4;
-    }
 
     /* Discovery page */
     .grid-container {
