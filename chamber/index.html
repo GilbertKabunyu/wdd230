@@ -44,25 +44,27 @@
                 </div>
             </section>
         </div>
-        <main class="program">
-            <img class="event1" src="images/agri1.jpg" alt="picture of a company in bindura">
-            <section class="event2">
-                <h2>Events</h2>
-                <p>Here are some upcoming events related to chambers of commerce and industry.</p>
-            </section>
-            <img class="sportlight1" src="images/mining.jpg" alt="operating company in bindura">
-            <section class="sportlight2">
-                <h2>Sportlight</h2>
-                <p>Playing a critical role in the development and implementation of policies that affect the business
-                    community, the Bindura Chamber of Commerce and Industry</p>
-            </section>
-            <img class="weather" src="images/weather.jpg" alt="about weather forecast of any city">
-            <section class="weather1">
-                <h2>Weather</h2>
-                <p>Bindura Chamber of Commerce acknowledges that the climate is changing, and humans are contributing to
-                    these changes.
-                    Their approach emphasizes practical, flexible, predictable, and durable policies.</p>
-            </section>
+        <main>
+            <!-- Banner -->
+            <div id="banner" class="banner" style="display: none;">
+                <span>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</span>
+                <button onclick="closeBanner()">❌</button>
+            </div>
+
+            <!-- Weather Section -->
+            <div class="weather" id="weather">
+                <h2>Current Weather</h2>
+                <p id="currentTemp"></p>
+                <p id="currentDesc"></p>
+                <h3>3-Day Forecast</h3>
+                <ul id="forecast"></ul>
+            </div>
+
+            <!-- Spotlight Section -->
+            <div class="spotlight" id="spotlight">
+                <h2>Member Spotlights</h2>
+                <div id="memberSpotlights"></div>
+            </div>
         </main>
         <footer>
             <p> &copy;2024-Bindura Chamber | Gilbert Kabunyu| WDD 230 |</p>
@@ -83,7 +85,7 @@
     </div>
     <script src="scripts/lastModified.js"></script>
     <script src="scripts/ham.js"></script>
-
+    <script src="scripts/weatherMembers.js"></script>
 </body>
 
 </html>

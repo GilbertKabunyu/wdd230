@@ -1,51 +1,73 @@
 const memberURL = 'https://gilbertkabunyu.github.io/wdd230/chamber/data/members.json';
-const directoryContainer = document.getElementById('directory-container');
-const gridViewBtn = document.getElementById('grid-view');
-const listViewBtn = document.getElementById('list-view');
+const cards = document.querySelector('.cards');
+const select = document.querySelector('.select')
+const selectIMG = document.querySelector('.selectIMG')
 
-async function getMembers() {
-  try {
+
+let mode = 0;
+
+const displayMembers = (members) => {
+    members.forEach((member) => {
+        let card = document.createElement('section');
+        let name = document.createElement('h3');
+        let picture = document.createElement('img');
+        let phone = document.createElement('p');
+        let address = document.createElement('p');
+        let siteWrap = document.createElement('p');
+        let site = document.createElement('a');
+
+        name.textContent = member.name;
+
+        phone.textContent = member.phone;
+
+        address.textContent = member.address;
+
+        site.textContent = member.website;
+        site.setAttribute('href', member.website)
+
+        picture.setAttribute('src', `https://gilbertkabunyu.github.io/wdd230/chamber/images/${member.image}.webp`);
+        picture.setAttribute('alt', `Portrait of ${member.name} logo`);
+        picture.setAttribute('loading', 'lazy');
+        picture.setAttribute('width', '200');
+        picture.setAttribute('height', '150');
+
+        siteWrap.appendChild(site)
+
+        card.appendChild(picture)
+        card.appendChild(name)
+        card.appendChild(phone)
+        card.appendChild(address)
+        card.appendChild(siteWrap)
+        cards.appendChild(card)
+    });
+}
+
+async function getMemberData() {
     const response = await fetch(memberURL);
-    const members = await response.json();
 
-    displayMembers(members, 'grid-view');
-
-    gridViewBtn.addEventListener('click', () => {
-      displayMembers(members, 'grid-view');
-      gridViewBtn.classList.add('active');
-      listViewBtn.classList.remove('active');
-    });
-
-    listViewBtn.addEventListener('click', () => {
-      displayMembers(members, 'list-view');
-      listViewBtn.classList.add('active');
-      gridViewBtn.classList.remove('active');
-    });
-  } catch (error) {
-    console.error('Error fetching member data:', error);
-  }
+    const data = await response.json();
+    console.table(data.members);
+    displayMembers(data.members);
 }
 
-function displayMembers(members, viewType) {
-  directoryContainer.innerHTML = '';
+select.addEventListener('click', () => {
+    if (mode === 0) {
+        cards.classList.remove('grid')
+        cards.classList.add('list')
+        selectIMG.setAttribute('src', 'images/grid.webp')
+        select.setAttribute('alt', 'Grid button')
 
-  members.forEach(member => {
-    const memberElement = document.createElement('div');
-    memberElement.classList.add(viewType === 'grid-view' ? 'member-card' : 'member-list-item');
+        mode = 1;
+    }
+    else {
+        mode = 0;
+        cards.classList.remove('list')
+        cards.classList.add('grid')
+        selectIMG.setAttribute('src', 'images/list.webp')
+        select.setAttribute('alt', 'List button')
+    }
 
-    memberElement.innerHTML = `
-      <div class="member-info">
-        <img src="images/${member.image}" alt="${member.name}">
-        <h3>${member.name}</h3>
-        <p>${member.address}</p>
-        <p>Phone: ${member.phone}</p>
-        <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
-        <p>Membership Level: ${member.membership}</p>
-      </div>
-    `;
+});
 
-    directoryContainer.appendChild(memberElement);
-  });
-}
 
-getMembers();
+getMemberData();

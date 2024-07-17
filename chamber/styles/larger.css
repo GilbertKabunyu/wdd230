@@ -134,5 +134,14 @@
     }
 
     /* Directory Page */
-   
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+
 }

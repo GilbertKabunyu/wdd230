@@ -388,3 +388,64 @@ td {
     max-width: 50px;
     margin-right: 20px;
 }
+
+/* directory page  */
+
+.grid section {
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+
+}
+
+.list {
+    background-color: white;
+}
+
+.cards a {
+    overflow-wrap: break-word;
+}
+
+
+.list section {
+
+    margin: 0;
+    padding: 0.25rem;
+    border-bottom: none;
+}
+
+
+
+.list img {
+    display: none;
+}
+
+.select {
+    padding: 0;
+    border: none;
+    background-color: inherit;
+    margin: 0;
+
+}
+
+.select img {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+.list section:nth-child(even) {
+    background-color: rgba(126, 192, 192, 0.336);
+
+}
+
+.list section:last-child {
+    border-bottom: 1px solid black;
+}
+
+
+.select img:hover {
+    box-shadow: 0 0 10px #333;
+}
