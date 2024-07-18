@@ -23,7 +23,7 @@
                 <img class="logo" src="images/bindura-chamber.png" alt="Bindura chamber of commerce">
             </a>
             <nav class="navigation">
-                <button id="menu"></button>
+                <button id="menu">l</button>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discovery.html">Discovery</a></li>
@@ -44,18 +44,18 @@
                 </fieldset>
                 <fieldset>
                     <legend>Membership Range</legend>
-                    <label>Applicant's Title or Position</label>
-                    <input type="text" id="applicant-title" name="applicant-title" required pattern="^[a-zA-Z-\s]{7}$">
-                    <label>Membership Level*</label>
+                    <label>Applicant's Title or Position:<input type="text" id="applicant-title" name="applicant-title"
+                            required pattern="^[a-zA-Z-\s]{7}$"></label>
+                    <label>Membership Level*
                     <select id="membership-level" name="membership-level" required>
                         <option value="">Please Select &#9662;</option>
                         <option value="NP">NP Membership</option>
                         <option value="bronze">Bronze Membership</option>
                         <option value="silver">Silver Membership</option>
                         <option value="gold">Gold Membership</option>
-                    </select>
-                    <label>Business/Organization Description:<textarea id="organization-description" name="organization-description"></textarea></label>
-                   
+                    </select></label>
+                    <label>Business/Organization Description:<textarea id="organization-description"
+                            name="organization-description"></textarea></label>
                     <input type="hidden" id="timestamp" name="timestamp" value="">
                 </fieldset>
                 <input type="submit" value="Apply">
