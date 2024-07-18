@@ -39,7 +39,7 @@ fetch(githubUrl)
     .then(response => response.json())
     .then(data => {
         const members = data.members;
-        const qualifiedMembers = members.filter(member => membershiplevel === 'silver' || membershiplevel === 'gold');
+        const qualifiedMembers = members.filter(members => members.membershipLevel === 'silver' || membersmembershipLevel === 'gold');
         const spotlightMembers = [];
 
         while (spotlightMembers.length < 3 && qualifiedMembers.length > 0) {
@@ -48,10 +48,10 @@ fetch(githubUrl)
         }
 
         let spotlightHtml = '';
-        spotlightMembers.forEach(member => {
+        spotlightMembers.forEach(members => {
             spotlightHtml += `<div>
-                <h3>${member.name}</h3>
-                <p>${member.description}</p>
+                <h3>${members.name}</h3>
+                <p>${members.description}</p>
             </div>`;
         });
 
