@@ -39,7 +39,7 @@ fetch(githubUrl)
     .then(response => response.json())
     .then(data => {
         const members = data.members;
-        const qualifiedMembers = members.filter(members => members.membershipLevel === 'silver' || membersmembershipLevel === 'gold');
+        const qualifiedMembers = members.filter(members => members.membershipLevel === 'Silver' || membersmembershipLevel === 'Gold');
         const spotlightMembers = [];
 
         while (spotlightMembers.length < 3 && qualifiedMembers.length > 0) {
