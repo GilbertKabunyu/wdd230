@@ -215,6 +215,11 @@ footer .social img {
 }
 
 /* Discovery page */
+.HD1 {
+    text-align: center;
+    padding: 1rem;
+}
+
 .grid-container {
     grid-template-columns: 1fr;
 }
